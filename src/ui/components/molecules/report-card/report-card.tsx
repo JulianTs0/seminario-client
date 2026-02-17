@@ -27,21 +27,21 @@ export default function ReportCard({
             <div className={style.metrics}>
                 <div>
                     <span className={style.label}>
-                        {`${entityLabel} esta semana`}
+                        {`${entityLabel} en los últimos 7 días`}
                     </span>
                     <p className={style.value}>{weeklyReport}</p>
                 </div>
 
                 <div>
                     <span className={style.label}>
-                        {`${entityLabel} este mes`}
+                        {`${entityLabel} en los últimos 30 días`}
                     </span>
                     <p className={style.value}>{monthlyReport}</p>
                 </div>
 
                 <div>
                     <span className={style.label}>
-                        {`${entityLabel} este año`}
+                        {`${entityLabel} en los últimos 365 días`}
                     </span>
                     <p className={style.value}>{yearlyReport}</p>
                 </div>

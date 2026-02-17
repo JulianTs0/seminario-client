@@ -72,11 +72,11 @@ export default function UserRoute(){
     } = ViewModel();
 
     return (
-        <Layout 
+        <Layout
             withHeader={true}
             headerProfile={currentUser ? currentUser.profile.toProfile() : undefined}
             onLogout={onLogout}
-            user={user}
+            user={currentUser}
         >
             { user && postTypes &&
                 <>
