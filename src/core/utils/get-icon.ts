@@ -14,8 +14,8 @@ import { NotificationContent } from "../../domain";
 export class IconMapper {
     
     private static readonly POST_ICONS: Record<string, string> = {
-        "JOB": workIcon,
-        "MARKET": marketIcon,
+        "LABORAL": workIcon,
+        "TIENDA": marketIcon,
         "GENERAL": generalIcon,
     };
 
